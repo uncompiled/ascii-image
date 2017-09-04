@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ascii-image</title>
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../ascii-image.html">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>&lt;ascii-image&gt; demo</h1>
+
+    <p>&lt;ascii-image&gt; is like the &lt;img&gt; tag, but it renders the image as ASCII characters.</p>
+
+    <p>It accepts a width attribute so you can define the number of columns:</p>
+    <pre>&lt;ascii-image src="grumpy.jpg" width="60"&gt;&lt;/ascii-image&gt;</pre>
+    
+    <ascii-image src="grumpy.jpg" width="60"></ascii-image>
+
+    <p>Don't use this to save data because you're still loading the original image.</p>
+    
+    <img src="grumpy.jpg">
+
+    <p>If you don't specify a width, it will default to 80 columns.</p>
+    
+    <ascii-image src="all-the-things.png"></ascii-image>
+
+</body>
+</html>

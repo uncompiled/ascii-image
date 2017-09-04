@@ -1,0 +1,31 @@
+{
+  "name": "ascii-image",
+  "version": "1.0.0",
+  "description": "Web Component that displays an image as ASCII art",
+  "main": "ascii-image.html",
+  "keywords": [
+    "web-components",
+    "ascii",
+    "art"
+  ],
+  "authors": [
+    "Chris Nguyen"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/uncompiled/ascii-image",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uncompiled/ascii-image.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "webcomponentsjs": "^1.0.10",
+    "web-component-tester": "*"
+  }
+}

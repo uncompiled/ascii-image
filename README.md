@@ -3,6 +3,8 @@
 `<ascii-image>` is a [Web Component](https://www.webcomponents.org/) 
 that displays an image as [ASCII art](https://en.wikipedia.org/wiki/ASCII_art).
 
+<img width="600" alt="ASCII image example" src="https://user-images.githubusercontent.com/408989/30008294-119952d8-90ec-11e7-91ab-69f4b133c128.png">
+
 By default, the ASCII image is scaled to 80 columns because old school
 terminals could only show 80 characters on a single line.
 

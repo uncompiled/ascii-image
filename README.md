@@ -25,7 +25,7 @@ to use when the ASCII art is generated.
 ```
 -->
 ```html
-<ascii-image src="demo/all-the-things.png" width="120"></ascii-image>
+<ascii-image src="demo/all-the-things.png" width="90"></ascii-image>
 ```
 
 ## Installation

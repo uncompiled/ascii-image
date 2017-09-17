@@ -8,15 +8,15 @@
 </head>
 <body>
   <ascii-image id="default" src="../demo/grumpy.jpg"></ascii-image>
-  <ascii-image id="fixture" src="../demo/grumpy.jpg" width="40"></ascii-image>
+  <ascii-image id="fixture" src="../demo/grumpy.jpg" columns="40"></ascii-image>
   <script>
     suite('<ascii-image>', function() {
       test('default width is 80', function() {
-        assert(document.getElementById('default').width == 80);
+        assert(document.getElementById('default').columns == 80);
       });
 
       test('accepts width attribute', function() {
-        assert(document.getElementById('fixture').width == 40);
+        assert(document.getElementById('fixture').columns == 40);
       });
     });
   </script>

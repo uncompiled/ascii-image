@@ -8,7 +8,7 @@ that displays an image as [ASCII art](https://en.wikipedia.org/wiki/ASCII_art).
 By default, the ASCII image is scaled to 80 columns because old school
 terminals could only show 80 characters on a single line.
 
-You can use the `width` attribute to specify the number of columns
+You can use the `columns` attribute to specify the number of columns
 to use when the ASCII art is generated.
 
 ## Example
@@ -25,7 +25,7 @@ to use when the ASCII art is generated.
 ```
 -->
 ```html
-<ascii-image src="demo/all-the-things.png" width="90"></ascii-image>
+<ascii-image src="demo/all-the-things.png" columns="90"></ascii-image>
 ```
 
 ## Installation

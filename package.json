@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/uncompiled/ascii-image#readme",
   "devDependencies": {
-    "serve": "^6.0.6"
+    "serve": "^7.0.0"
   }
 }

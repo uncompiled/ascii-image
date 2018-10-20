@@ -1,5 +1,8 @@
 # ascii-image
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/uncompiled/ascii-image)
+
+
 `<ascii-image>` is a [Web Component](https://www.webcomponents.org/)
 that displays an image as [ASCII art](https://en.wikipedia.org/wiki/ASCII_art).
 

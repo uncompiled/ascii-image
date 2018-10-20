@@ -1,6 +1,6 @@
 # ascii-image
 
-`<ascii-image>` is a [Web Component](https://www.webcomponents.org/) 
+`<ascii-image>` is a [Web Component](https://www.webcomponents.org/)
 that displays an image as [ASCII art](https://en.wikipedia.org/wiki/ASCII_art).
 
 <img width="600" alt="ASCII image example" src="https://user-images.githubusercontent.com/408989/30008294-119952d8-90ec-11e7-91ab-69f4b133c128.png">
@@ -30,10 +30,12 @@ to use when the ASCII art is generated.
 
 ## Installation
 
-Import the web component using HTML imports:
+Import the web component as an ES module:
 
 ```
-<link rel="import" href="ascii-image.html">
+<script type="module">
+  import '@uncompiled/ascii-image/ascii-image.js';
+</script>
 ```
 
 ## Tests

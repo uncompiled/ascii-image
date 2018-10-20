@@ -1,5 +1,5 @@
 {
-  "name": "ascii-art",
+  "name": "ascii-image",
   "version": "3.0.0",
   "description": "Displays an image as ASCII art",
   "main": "ascii-image.js",

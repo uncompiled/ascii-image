@@ -3,8 +3,10 @@
 <head>
     <meta charset="utf-8">
     <title>ascii-image</title>
-    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="../ascii-image.html">
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script type="module">
+        import '/ascii-image.js'
+    </script>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -18,16 +20,16 @@
 
     <p>It accepts a width attribute so you can define the number of columns:</p>
     <pre>&lt;ascii-image src="grumpy.jpg" columns="60"&gt;&lt;/ascii-image&gt;</pre>
-    
-    <ascii-image src="grumpy.jpg" columns="60"></ascii-image>
+
+    <ascii-image src="/demo/grumpy.jpg" columns="60"></ascii-image>
 
     <p>Don't use this to save data because you're still loading the original image.</p>
-    
-    <img src="grumpy.jpg">
+
+    <img src="/demo/grumpy.jpg">
 
     <p>If you don't specify the number of columns, it will default to 80 columns.</p>
-    
-    <ascii-image src="all-the-things.png"></ascii-image>
+
+    <ascii-image src="/demo/all-the-things.png"></ascii-image>
 
 </body>
 </html>

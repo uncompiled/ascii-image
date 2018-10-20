@@ -1,8 +1,8 @@
 {
   "name": "ascii-art",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Displays an image as ASCII art",
-  "main": "ascii-image.html",
+  "main": "ascii-image.js",
   "scripts": {
     "serve": "serve"
   },
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/uncompiled/ascii-image#readme",
   "devDependencies": {
     "serve": "^7.0.0"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.1.3"
   }
 }

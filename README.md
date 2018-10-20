@@ -30,13 +30,26 @@ to use when the ASCII art is generated.
 
 ## Installation
 
-Import the web component as an ES module:
+Install `ascii-image` as a dependency:
 
 ```
-<script type="module">
-  import '@uncompiled/ascii-image/ascii-image.js';
-</script>
+npm install ascii-image --save
 ```
+
+Import it as an ES module:
+
+```javascript
+import AsciiImage from 'ascii-image'
+window.customElements.define('ascii-image', AsciiImage);
+```
+
+In your HTML, you can use like any other HTML tag:
+
+```html
+<ascii-image src="demo/all-the-things.png" columns="90"></ascii-image>
+```
+
+Here's a vanilla JS [codesandbox](https://codesandbox.io/s/wz7kxvx555).
 
 ## Tests
 

@@ -1,7 +1,7 @@
 {
   "name": "ascii-image",
   "version": "3.0.0",
-  "description": "Displays an image as ASCII art",
+  "description": "Web Component that displays an image as ASCII art",
   "main": "ascii-image.js",
   "scripts": {
     "serve": "serve"

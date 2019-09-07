@@ -4,7 +4,8 @@
   "description": "Web Component that displays an image as ASCII art",
   "main": "ascii-image.js",
   "scripts": {
-    "serve": "serve"
+    "serve": "serve",
+    "start": "npm run serve"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
   },
   "homepage": "https://github.com/uncompiled/ascii-image#readme",
   "devDependencies": {
-    "serve": "^10.0.0"
+    "serve": "^11.1.0"
   },
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.1.3"

@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/uncompiled/ascii-image#readme",
   "devDependencies": {
-    "serve": "^11.1.0"
+    "serve": "^14.2.0"
   },
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.1.3"
